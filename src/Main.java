@@ -4,7 +4,7 @@ public class Main {
         int time = 12;
         int sumCredit = 1000000;
         double rate = 9.99;
-        double creditPayment = calculate.credit(time,sumCredit,rate);
+        double creditPayment = calculate.credit(time, sumCredit, rate);
         System.out.println(creditPayment);
     }
 }
